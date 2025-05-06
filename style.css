@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+svg {
+  display: block;
+  margin: 30px auto;
+}
+.task-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.task-list li {
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #0056b3;
+}
+a:hover {
+  color: #007bff;
+}
+.tooltip {
+  position: absolute;
+  padding: 6px;
+  background: lightgray;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 14px;
+}
+
